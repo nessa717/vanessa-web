@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vanessa Guzmán | Desarrolladora Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="logo.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <section id="presentacion">
+      <h1>Hola, soy Vanessa Guzmán</h1>
+      <p>Desarrolladora Web JR.</p>
+      <img src="vanessa.jpg" alt="Foto de Vanessa Guzmán">
+    </section>
+    <nav>
+      <ul>
+        <li><a href="mailto:nessataborga@gmail.com">Correo</a></li>
+        <li><a href="https://wa.me/59176456206" target="_blank">Móvil</a></li>
+        <li><a href="https://maps.app.goo.gl/2BtewSF4hH8QBeSSA" target="_blank">Dirección</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <aside>
+      <section id="educacion">
+        <h2>Educación</h2>
+        <p>2025 - Actual: Técnico Superior en Sistemas Informáticos - Instituto CIPEC</p>
+        <p>2023 - 2024: Platzi - Lenguajes de Programación</p>
+      </section>
+      <section id="idiomas">
+        <h2>Idiomas</h2>
+        <ul>
+          <li>Español</li>
+          <li>Inglés (medio)</li>
+          <li>Italiano (principiante)</li>
+        </ul>
+      </section>
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>Programación</li>
+          <li>Trabajo en equipo</li>
+          <li>Resolución de problemas</li>
+          <li>Creativa y positiva</li>
+          <li>Aprendizaje rápido</li>
+        </ul>
+      </section>
+    </aside>
+    <section id="presentacion-principal">
+      <h2>Sobre mí</h2>
+      <p>Soy estudiante de desarrollo de software con formación en programación y diseño de circuitos. Me destaco por mi compromiso, responsabilidad y orientación a resultados. Busco crecer profesionalmente como desarrolladora JR.</p>
+      <button onclick="document.getElementById('curriculum').style.display='block'">Ver Curriculum</button>
+      <section id="curriculum" style="display: none;">
+        <h2>Currículum</h2>
+        <img src="curriculum-vanessa.png" alt="Currículum Vanessa Guzmán" style="max-width:100%;">
+      </section>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="correo">Correo:</label>
+          <input type="email" id="correo" name="correo" required>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </section>
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <ul>
+        <li><strong>2015 - 2018:</strong> Apoyo contable - Kansas SRL</li>
+        <li><strong>2019 - 2021:</strong> Marketing digital - Constructora Mariscal</li>
+        <li><strong>2023 - 2024:</strong> Empresa de inversiones Bouers</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <img src="logo-footer.png" alt="Logo Vanessa Guzmán" style="height: 60px;">
+    <p>&copy; 2025 Vanessa Guzmán. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
